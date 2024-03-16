@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A8BADCB82BA16BD4004B1E7E /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BADCB72BA16BD4004B1E7E /* MemorizeApp.swift */; };
-		A8BADCBA2BA16BD4004B1E7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BADCB92BA16BD4004B1E7E /* ContentView.swift */; };
+		A83739922BA6014C0038DA4B /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83739912BA6014C0038DA4B /* MemorizeApp.swift */; };
+		A86B06642BA2C174006C580A /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86B06632BA2C174006C580A /* MemoryGame.swift */; };
+		A86B06662BA2C5EB006C580A /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86B06652BA2C5EB006C580A /* EmojiMemoryGame.swift */; };
+		A8BADCBA2BA16BD4004B1E7E /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BADCB92BA16BD4004B1E7E /* EmojiMemoryGameView.swift */; };
 		A8BADCBC2BA16BD5004B1E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BADCBB2BA16BD5004B1E7E /* Assets.xcassets */; };
 		A8BADCBF2BA16BD5004B1E7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BADCBE2BA16BD5004B1E7E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A83739912BA6014C0038DA4B /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
+		A86B06632BA2C174006C580A /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		A86B06652BA2C5EB006C580A /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		A8BADCB42BA16BD4004B1E7E /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8BADCB72BA16BD4004B1E7E /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
-		A8BADCB92BA16BD4004B1E7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A8BADCB92BA16BD4004B1E7E /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		A8BADCBB2BA16BD5004B1E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8BADCBE2BA16BD5004B1E7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +55,10 @@
 		A8BADCB62BA16BD4004B1E7E /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
-				A8BADCB72BA16BD4004B1E7E /* MemorizeApp.swift */,
-				A8BADCB92BA16BD4004B1E7E /* ContentView.swift */,
+				A86B06632BA2C174006C580A /* MemoryGame.swift */,
+				A83739912BA6014C0038DA4B /* MemorizeApp.swift */,
+				A86B06652BA2C5EB006C580A /* EmojiMemoryGame.swift */,
+				A8BADCB92BA16BD4004B1E7E /* EmojiMemoryGameView.swift */,
 				A8BADCBB2BA16BD5004B1E7E /* Assets.xcassets */,
 				A8BADCBD2BA16BD5004B1E7E /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8BADCBA2BA16BD4004B1E7E /* ContentView.swift in Sources */,
-				A8BADCB82BA16BD4004B1E7E /* MemorizeApp.swift in Sources */,
+				A8BADCBA2BA16BD4004B1E7E /* EmojiMemoryGameView.swift in Sources */,
+				A83739922BA6014C0038DA4B /* MemorizeApp.swift in Sources */,
+				A86B06642BA2C174006C580A /* MemoryGame.swift in Sources */,
+				A86B06662BA2C5EB006C580A /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
